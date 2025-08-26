@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7072868284671744003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff2bb04088920347a90db79f1a64a16, type: 3}
+  m_Name: "\u5305\u8BDA\uFF1A\u59D4\u4EFB\u72B6\u4E0A\u5199..."
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 244.93466, y: -54.016033}
+  ports:
+    keys:
+    - output
+    - nextNodes
+    - input
+    - baseInput
+    values:
+    - _fieldName: output
+      _node: {fileID: -7072868284671744003}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -2652985281974030568}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -7072868284671744003}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogueSystem.BaseNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -7072868284671744003}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: baseInput
+      _node: {fileID: -7072868284671744003}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  baseInput: {fileID: 0}
+  nodeGUID: 1c8f7482-9050-48ed-821b-5cba8d62a6fc
+  nodePosition: {x: 0, y: 0}
+  output: {fileID: 0}
+  actorSO: {fileID: 11400000, guid: 58398c9617260ff4a88edab601fc6f1c, type: 2}
+  dialogueText: "\u59D4\u4EFB\u72B6\u4E0A\u5199\u7740\u59D4\u4EFB\u5305\u8BDA\u4E3A\u53BF\u4E1E\uFF0C\u6070\u597D\u6211\u8EAB\u4E0A\u4E5F\u6709\u4E00\u5757\u523B\u7740\u201C\u8BDA\u201D\u5B57\u7684\u7389\u4F69"
+  playVoice: 0
+  voiceClip: {fileID: 0}
+  voicePath: 
+  voiceVolume: 1
+  voiceOutputType: 0
+  outputAudioMixerGroup: {fileID: 0}
+  customOutputName: 
+  dialogueType: 0
+  options: []
+  nextNodes: []
+  playOptionsVoice: 0
+  optionVoiceClips: []
+  optionVoicePaths: []
+  optionsAudioMixerGroup: {fileID: 0}
+  isOneTimeDialogue: 1
+  isEndNode: 0
+  shakeOnShow: 0
+  shakeType: 1
+  optionPlayAnim: 
+  optionAnimName: []
+  optionAnimType: 
+  optionShakeCamera: 
+  optionShakeType: 
+  optionTimelineID: []
+  optionWaitForTimeline: 
+--- !u!114 &-2652985281974030568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff2bb04088920347a90db79f1a64a16, type: 3}
+  m_Name: "\u5305\u8BDA\uFF1A\u770B\u6765\u6211\u5C31\u662F..."
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 624.13464, y: 69.183975}
+  ports:
+    keys:
+    - output
+    - nextNodes
+    - input
+    - baseInput
+    values:
+    - _fieldName: output
+      _node: {fileID: -2652985281974030568}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 5536714727239949288}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -2652985281974030568}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogueSystem.BaseNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -2652985281974030568}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -7072868284671744003}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: baseInput
+      _node: {fileID: -2652985281974030568}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  baseInput: {fileID: 0}
+  nodeGUID: f7707a63-7b88-4568-bb22-41edde0da56a
+  nodePosition: {x: 0, y: 0}
+  output: {fileID: 0}
+  actorSO: {fileID: 11400000, guid: 58398c9617260ff4a88edab601fc6f1c, type: 2}
+  dialogueText: "\u770B\u6765\u6211\u5C31\u662F\u8FD9\u4E2A\u5012\u9709\u50AC\u7684\u53BF\u4E1E\u201C\u5305\u8BDA\u201D\u4E86"
+  playVoice: 0
+  voiceClip: {fileID: 0}
+  voicePath: 
+  voiceVolume: 1
+  voiceOutputType: 0
+  outputAudioMixerGroup: {fileID: 0}
+  customOutputName: 
+  dialogueType: 0
+  options: []
+  nextNodes: []
+  playOptionsVoice: 0
+  optionVoiceClips: []
+  optionVoicePaths: []
+  optionsAudioMixerGroup: {fileID: 0}
+  isOneTimeDialogue: 0
+  isEndNode: 0
+  shakeOnShow: 0
+  shakeType: 1
+  optionPlayAnim: 
+  optionAnimName: []
+  optionAnimType: 
+  optionShakeCamera: 
+  optionShakeType: 
+  optionTimelineID: []
+  optionWaitForTimeline: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc9bd313967b5640b8ef541da42030d, type: 3}
+  m_Name: "\u7ED3\u8BBA\u5BF9\u8BDD1"
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7072868284671744003}
+  - {fileID: -2652985281974030568}
+  - {fileID: 5536714727239949288}
+  startNode: {fileID: -2652985281974030568}
+  logDebugInfo: 0
+  saveCompletedDialogues: 1
+  resetDialoguesOnPlay: 1
+  timelineDirector: {fileID: 0}
+--- !u!114 &5536714727239949288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff2bb04088920347a90db79f1a64a16, type: 3}
+  m_Name: "\u5305\u8BDA\uFF1A\u7B97\u4E86\u4E0D\u7BA1\u4E86..."
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 984, y: 136}
+  ports:
+    keys:
+    - output
+    - nextNodes
+    - input
+    - baseInput
+    values:
+    - _fieldName: output
+      _node: {fileID: 5536714727239949288}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 5536714727239949288}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogueSystem.BaseNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 5536714727239949288}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -2652985281974030568}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: baseInput
+      _node: {fileID: 5536714727239949288}
+      _typeQualifiedName: DialogueSystem.BaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  baseInput: {fileID: 0}
+  nodeGUID: 7f738cf6-f749-4072-ae8e-591df1c2becd
+  nodePosition: {x: 0, y: 0}
+  output: {fileID: 0}
+  actorSO: {fileID: 11400000, guid: 58398c9617260ff4a88edab601fc6f1c, type: 2}
+  dialogueText: "\u7B97\u4E86\u4E0D\u7BA1\u4E86\uFF0C\u5148\u8C03\u67E5\u4E00\u4E0B\u5468\u56F4\u53D1\u751F\u4E86\u4EC0\u4E48\u5427"
+  playVoice: 0
+  voiceClip: {fileID: 0}
+  voicePath: 
+  voiceVolume: 1
+  voiceOutputType: 0
+  outputAudioMixerGroup: {fileID: 0}
+  customOutputName: 
+  dialogueType: 0
+  options: []
+  nextNodes: []
+  playOptionsVoice: 0
+  optionVoiceClips: []
+  optionVoicePaths: []
+  optionsAudioMixerGroup: {fileID: 0}
+  isOneTimeDialogue: 0
+  isEndNode: 1
+  shakeOnShow: 0
+  shakeType: 1
+  optionPlayAnim: 
+  optionAnimName: []
+  optionAnimType: 
+  optionShakeCamera: 
+  optionShakeType: 
+  optionTimelineID: []
+  optionWaitForTimeline: 

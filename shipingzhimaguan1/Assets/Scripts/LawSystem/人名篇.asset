@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d825a11caca39f4393d6c10131429ac, type: 3}
+  m_Name: "\u4EBA\u540D\u7BC7"
+  m_EditorClassIdentifier: 
+  lawTitle: "\u4EBA\u547D\u7BC7"
+  subItems:
+  - subTitle: "\u8C0B\u6740"
+    subContent: "\u6545\u6740\u8005\u65A9\u7ACB\u51B3\uFF1B\u8BEF\u6740\u8005\u7EDE\uFF0C\u79CB\u51B3\uFF1B\u620F\u6740\u3001\u8FC7\u5931\u6740\uFF0C\u8D54\u94F6\u767E\u4E24\uFF0C\u5F92\u4E09\u5E74\u3002"
+  - subTitle: "\u8840\u4EB2\u76F8\u6B8B"
+    subContent: "\u5F11\u7236\u6BCD\u8005\u51CC\u8FDF\uFF0C\u5F11\u5144\u59CA\u8005\u65A9\uFF1B\u7236\u6BCD\u6740\u5B50\u5973\uFF0C\u6756\u516B\u5341\uFF0C\u5F92\u4E94\u5E74"
+  buttonDisplayName: "\u4EBA\u547D\u7BC7"

@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5749639443440828162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5918874969025910800}
+  - component: {fileID: 2880864952444304891}
+  - component: {fileID: 6524984599072868533}
+  - component: {fileID: 8661340604420167419}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5918874969025910800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749639443440828162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.7411823, y: 0, z: -1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!218 &2880864952444304891
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749639443440828162}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 9914175af764b9244b75bf65d0333f2c, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 24
+  m_DetailObjectDensity: 0.63
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 1
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 1
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_IgnoreQualitySettings: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 2100000, guid: 3fcc575db8dce204882a1126416afebd, type: 2}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ReceiveGI: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+  m_EnableHeightmapRayTracing: 1
+  m_EnableTreesAndDetailsRayTracing: 0
+  m_TreeMotionVectorModeOverride: 3
+--- !u!154 &6524984599072868533
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749639443440828162}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 15600000, guid: 9914175af764b9244b75bf65d0333f2c, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!114 &8661340604420167419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749639443440828162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae1b2e3b43c70746800bfa8f8f14123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 2880864952444304891}
+  material: {fileID: 2100000, guid: 3fcc575db8dce204882a1126416afebd, type: 2}
+  Settings:
+    syncWithEnviro: 1
+    snowIntensity: 0
+    rainIntensity: 0
+    wetnessIntensity: 0
+    antiTileSampling: 1
+    blendQuality: 1
+    tessellation: 0
+    tessFactor: 10
+    tessMinDistance: 10
+    tessMaxDistance: 30
+    displacementStrength: 0.5
+    heightBlend: 1
+    heightBlendStrength: 0.0202
+    heightBlending: 0.064
+    mipDistanceBlending: 9.9
+    snowEffects: 0
+    snowTiling: 100
+    snowNormalScale: 1
+    snowDisplacement: 0.25
+    snowSmoothness: 1
+    snowMetallic: 0
+    snowSlope: 20
+    snowHeightBlending: 4
+    SSSIntensity: 3
+    SSSScale: 0.5
+    SSSDistortion: 0.9
+    wetnessBoost: 0.3
+    rainEffects: 0
+    rainDropTiling: 0.5
+    rainDropSpeed: 1
+    rainDropIntensity: 5
+    rainDistanceFade: 10
+    rainFlowIntensity: 2
+    rainFlowDistortionScale: 1000
+    rainFlowDistortionStrength: 0.15
+    rainFlowTiling: 0.5
+    rainFlowStrength: 1
+    rainFlowSmoothnessBoost: 2
+    puddleEffects: 0
+    puddleIntensity: 0.8
+    puddleColor: {r: 1, g: 1, b: 1, a: 1}
+    puddleCoverage: 0.25
+    puddleWaveTiling: 0.1
+    puddleWaveIntensity: 0.406
+  showGeneral: 1
+  showLayers: 1
+  showTess: 1
+  showSnow: 0
+  showRain: 0
+  showWetnes: 0
+  showPuddles: 0
+  layers:
+  - show: 1
+    layer: {fileID: 8574412962073106934, guid: 8d29c364d0a6d59408ad2460370e8d5f, type: 2}
+    samplingType: 1
+    tintColor: {r: 0.78113204, g: 0.7708152, b: 0.7708152, a: 1}
+    occlusion: 0
+    normalScale: 0.998
+    metallic: 0
+    smoothness: 0
+    heightContrast: 0
+    displacementModifier: 1
+  - show: 1
+    layer: {fileID: 8574412962073106934, guid: 7d2e963b536906a44933365d7bdd4341, type: 2}
+    samplingType: 1
+    tintColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+    occlusion: 0
+    normalScale: 2
+    metallic: 0
+    smoothness: 0
+    heightContrast: 0
+    displacementModifier: 1
+  - show: 1
+    layer: {fileID: 8574412962073106934, guid: c4e313d8ba2281c49adc1a2257deb606, type: 2}
+    samplingType: 1
+    tintColor: {r: 0.7433963, g: 0.7433963, b: 0.7433963, a: 1}
+    occlusion: 0
+    normalScale: 1
+    metallic: 0
+    smoothness: 0
+    heightContrast: 0
+    displacementModifier: 1
+  - show: 1
+    layer: {fileID: 8574412962073106934, guid: cf96e8e21bf0f8e49a0406b974975b29, type: 2}
+    samplingType: 0
+    tintColor: {r: 0.7660377, g: 0.7660377, b: 0.7660377, a: 1}
+    occlusion: 0
+    normalScale: 2
+    metallic: 0
+    smoothness: 0
+    heightContrast: 0
+    displacementModifier: 1
+  - show: 1
+    layer: {fileID: 8574412962073106934, guid: a3a9c18b6f5d4cd46bd95b7c56d3180c, type: 2}
+    samplingType: 0
+    tintColor: {r: 1, g: 1, b: 1, a: 1}
+    occlusion: 0
+    normalScale: 2
+    metallic: 0
+    smoothness: 0
+    heightContrast: 0
+    displacementModifier: 1
+  - show: 1
+    layer: {fileID: 8574412962073106934, guid: 6e267a43884d4ea4b86ff00eb473f843, type: 2}
+    samplingType: 1
+    tintColor: {r: 0.3584906, g: 0.34293345, b: 0.34293345, a: 1}
+    occlusion: 0
+    normalScale: 2
+    metallic: 0
+    smoothness: 0
+    heightContrast: 0
+    displacementModifier: 1
+  - show: 0
+    layer: {fileID: 8574412962073106934, guid: cc780478043592843afb4dcdfc87f0d9, type: 2}
+    samplingType: 0
+    tintColor: {r: 1, g: 1, b: 1, a: 1}
+    occlusion: 0
+    normalScale: 1
+    metallic: 0
+    smoothness: 0.5
+    heightContrast: 0
+    displacementModifier: 1
+  - show: 1
+    layer: {fileID: 8574412962073106934, guid: 0e61919623c31994e84df76eafb21524, type: 2}
+    samplingType: 1
+    tintColor: {r: 1, g: 1, b: 1, a: 1}
+    occlusion: 0
+    normalScale: 1
+    metallic: 0
+    smoothness: 0
+    heightContrast: 0
+    displacementModifier: 1
+  albedoTextures:
+  - {fileID: 2800000, guid: 7bcdfa05d69b9d54ab6ee7f9e3a23e00, type: 3}
+  - {fileID: 2800000, guid: 87177921a0b17bd40b3080f0735c183b, type: 3}
+  - {fileID: 2800000, guid: f7886d57585eb3242bbcd080c024eee9, type: 3}
+  - {fileID: 2800000, guid: 03a2ebe9151ef954b8b7aeaec09a921f, type: 3}
+  - {fileID: 2800000, guid: bdce689f7b348ac48bb360c696f0dc47, type: 3}
+  - {fileID: 2800000, guid: 6efa6c8bd2c025144b853d0b33a03b06, type: 3}
+  - {fileID: 2800000, guid: 87177921a0b17bd40b3080f0735c183b, type: 3}
+  - {fileID: 2800000, guid: abf1e9771345aa342bf1f234e67fc156, type: 3}
+  normalTextures:
+  - {fileID: 2800000, guid: bf9add54e8144f447b814c094c18fdf7, type: 3}
+  - {fileID: 2800000, guid: f49475b84b9e7544d92c48e13ad1ff81, type: 3}
+  - {fileID: 2800000, guid: ba1c4f3e25a849343bd8bf6cb1d99e1f, type: 3}
+  - {fileID: 2800000, guid: 4335e6604eb89b342b7371586d58a81a, type: 3}
+  - {fileID: 2800000, guid: f05d372e6f047ac489ce702334e54e9d, type: 3}
+  - {fileID: 2800000, guid: e900f4c6dc7e5d94f9ae92b6eb50ab02, type: 3}
+  - {fileID: 2800000, guid: f49475b84b9e7544d92c48e13ad1ff81, type: 3}
+  - {fileID: 2800000, guid: 9eab912f9b3138c4db0b4d425a88ffbf, type: 3}
+  maskTextures:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  snowAlbedo: {fileID: 2800000, guid: 27b834a48f9909243ac06c6f3f8e209a, type: 3}
+  snowNormal: {fileID: 2800000, guid: d3be6198ace0ba14cb05762000ca9853, type: 3}
+  snowMask: {fileID: 2800000, guid: f6a1524323f57554492c86586bdea3ab, type: 3}
+  puddleWaveNormal: {fileID: 2800000, guid: a27b6cd880f319446a44daf0b7fdb46d, type: 3}
+  albedoArray: {fileID: 0}
+  normalArray: {fileID: 0}
+  maskArray: {fileID: 0}
+  autoUpdateArrays: 1

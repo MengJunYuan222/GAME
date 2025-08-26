@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85487a8a08661d848812b1ca4107bd1c, type: 3}
+  m_Name: New Suspect
+  m_EditorClassIdentifier: 
+  suspectName: "\u963F\u58EE"
+  age: 25
+  hometown: "\u957F\u6C99"
+  description: "\u5ACC\u7591\u4EBA\u7B80\u4ECB..."
+  suspectPortrait: {fileID: 21300000, guid: 45e97921e567363419794f780b3f96e2, type: 3}
+  relatedConclusions:
+  - {fileID: 11400000, guid: 43c0158b6a7ae124e97e06d5695825cf, type: 2}
+  - {fileID: 11400000, guid: b5649df707ba67e42ae29ce902e5b373, type: 2}
+  requiredConclusionsCount: 2
+  possibleCrimes:
+  - 
